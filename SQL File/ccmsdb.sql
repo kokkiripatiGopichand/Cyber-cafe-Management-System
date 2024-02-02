@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 03, 2019 at 10:29 AM
+-- Generation Time: Aug 03, 2023 at 10:29 AM
 -- Server version: 10.3.15-MariaDB
 -- PHP Version: 7.2.19
 
@@ -43,7 +43,7 @@ CREATE TABLE `tbladmin` (
 --
 
 INSERT INTO `tbladmin` (`ID`, `AdminName`, `UserName`, `MobileNumber`, `Email`, `Password`, `AdminRegdate`) VALUES
-(1, 'Admin', 'admin', 8979555556, 'admin@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2019-08-01 08:53:46');
+(1, 'Admin', 'admin', 8979555556, 'admin@gmail.com', 'f925916e2754e5e03f75dd58a5733251', '2023-08-01 08:53:46');
 
 -- --------------------------------------------------------
 
@@ -64,11 +64,11 @@ CREATE TABLE `tblcomputers` (
 --
 
 INSERT INTO `tblcomputers` (`ID`, `ComputerName`, `ComputerLocation`, `IPAdd`, `EntryDate`) VALUES
-(1, 'Acer', 'Cabin101', '127.0.0.1', '2019-08-01 09:25:58'),
-(2, 'ASUS', 'Cabin102', '127.0.0.2', '2019-08-01 09:26:37'),
-(3, 'DELL', 'Cabin103', '127.0.0.2', '2019-08-01 09:27:04'),
-(4, 'DELL', 'Cabin104', '127.0.0.3', '2019-08-01 09:30:40'),
-(5, 'Asus Gaming Laptop', 'Cabin 10', '127.0.0.01', '2019-08-03 07:54:52');
+(1, 'Acer', 'Cabin101', '127.0.0.1', '2023-08-01 09:25:58'),
+(2, 'ASUS', 'Cabin102', '127.0.0.2', '2023-08-01 09:26:37'),
+(3, 'DELL', 'Cabin103', '127.0.0.2', '2023-08-01 09:27:04'),
+(4, 'DELL', 'Cabin104', '127.0.0.3', '2023-08-01 09:30:40'),
+(5, 'Asus Gaming Laptop', 'Cabin 10', '127.0.0.01', '2023-08-03 07:54:52');
 
 -- --------------------------------------------------------
 
@@ -98,10 +98,10 @@ CREATE TABLE `tblusers` (
 --
 
 INSERT INTO `tblusers` (`ID`, `EntryID`, `UserName`, `UserAddress`, `MobileNumber`, `Email`, `ComputerName`, `IDProof`, `InTime`, `OutTime`, `Fees`, `Remark`, `Status`, `UpdationDate`) VALUES
-(1, '398365517', 'Pushkar Mishra', 'B-120,Govindpuram, Ghaziabad', 4646464646, 'abc@gmail.com', 'Dell', 'EG5866655', '2019-07-31 18:30:00', '2019-08-03 07:58:17', '20', 'Ok', 'Out', '2019-08-03 07:58:17'),
-(2, '285255862', 'Shanu Dev', 'g-110,govindpuram ghaziabad', 6546464646, 'shanu@gmail.com', 'ASUS', 'FG9777977', '2019-08-01 18:30:00', '2019-08-03 07:58:20', NULL, NULL, '', '2019-08-03 07:58:20'),
-(3, '305642534', 'Khushi Chaursia', '456 falt', 7575757575, 'k@gmail.com', 'Acer', 'et686876878', '2019-08-03 05:44:06', '2019-08-03 05:44:42', '80', 'Ok', 'Out', '2019-08-03 05:44:42'),
-(4, '634737642', 'Test user', 'New Delhi India', 1234567890, 'test@test.com', 'Asus Gaming Laptop', '184716461', '2019-08-03 07:55:41', '2019-08-03 07:56:30', '30', 'Check out', 'Out', '2019-08-03 07:56:30');
+(1, '398365517', 'Gopichand', 'B-120,Govindpuram, Ghaziabad', 4646464646, 'abc@gmail.com', 'Dell', 'EG5866655', '2023-07-31 18:30:00', '2023-08-03 07:58:17', '20', 'Ok', 'Out', '2023-08-03 07:58:17'),
+(2, '285255862', 'Satyavathi ', 'g-110,govindpuram ghaziabad', 6546464646, 'shanu@gmail.com', 'ASUS', 'FG9777977', '2023-08-01 18:30:00', '2023-08-03 07:58:20', NULL, NULL, '', '2023-08-03 07:58:20'),
+(3, '305642534', 'Khushi Chaursia', '456 falt', 7575757575, 'k@gmail.com', 'Acer', 'et686876878', '2023-08-03 05:44:06', '2023-08-03 05:44:42', '80', 'Ok', 'Out', '2023-08-03 05:44:42'),
+(4, '634737642', 'Test user', 'New Delhi India', 1234567890, 'test@test.com', 'Asus Gaming Laptop', '184716461', '2023-08-03 07:55:41', '2023-08-03 07:56:30', '30', 'Check out', 'Out', '2023-08-03 07:56:30');
 
 --
 -- Indexes for dumped tables
